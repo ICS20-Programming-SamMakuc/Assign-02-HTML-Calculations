@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Celsius to Fahrenheit  Calculator">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Sam Makuc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="192x192" href="./fav_index/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Celsius to Fahrenheit Calcultor</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <center><h1>Celsius to Fahrenheit Calcultor</h1></center>
+    <br></br>
+    <p>
+      <img src="./images/celciustofahrenheit2.jpg" alt="style" width="400" height="300">
+    <!-- Space to get user information -->
+      <h3>Please enter the following:</h3>
+    <form action="javascript:enterClicked()">
+        <label for="temp-celsius">Temperature in Celsius</label>
+        <input type="number" id="temp-celsius" placeholder="Temp in Celsius"><br><br>
+        <input type="submit" value="Calculate">
+      </form>
+  </p>
+    <!-- Create a space where the user information will be displayed -->
+    <div id="tempAfterConversion"> 
+      <p></p>
+      <p>
+      <form action="javascript:enterClicked()">
+        <label for="temp-celsius">Temperature in Fahrenheit</label>
+        <input type="number" id="temp-fahrenheit" placeholder="Temp in Fahrenheit"><br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </p>
+    </div>
+  </body>
+</html>
