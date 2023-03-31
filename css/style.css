@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(124, 6, 198);
+  background-color: rgb(124 6 198);
   font-size: 10pt;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   color: rgb(66 158 255);
@@ -13,7 +13,7 @@ h1 {
   font: 20pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 80pt;
-  color:  rgb(66 158 255);
+  color: rgb(66 158 255);
   background-color: #030544;
 }
 
@@ -41,9 +41,6 @@ div {
   color: rgb(66 158 255);
   margin: 5px;
 }
-
-/* Puts Image on the Left */
-<img src="./images/celciustofahrenheit2.jpg" alt="style" style="display: block; margin: 0 auto;">
 
 img {
   padding: 3pt;

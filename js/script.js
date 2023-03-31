@@ -10,10 +10,10 @@ function enterClicked() {
   // Check which input is empty and calculate the other
   if (tempCelsius !== "") {
     var convertedTemp = (tempCelsius * 9/5) + 32;
-    document.getElementById("tempAfterConversion").innerHTML = "Temperature in Fahrenheit: " + convertedTemp.toFixed(2) + "°F (Reload web page before another use)";
+    document.getElementById("tempAfterConversionF").innerHTML = "Temperature in Fahrenheit: " + convertedTemp.toFixed(2) + "°F (Reload web page before another use)";
   } else if (tempFahrenheit !== "") {
     var convertedTemp = (tempFahrenheit - 32) * 5/9;
-    document.getElementById("tempAfterConversion").innerHTML = "Temperature in Celsius: " + convertedTemp.toFixed(2) + "°C (Reload web page before another use)";
+    document.getElementById("tempAfterConversionC").innerHTML = "Temperature in Celsius: " + convertedTemp.toFixed(2) + "°C (Reload web page before another use)";
   } else {
     alert("Please enter a temperature.");
   }
